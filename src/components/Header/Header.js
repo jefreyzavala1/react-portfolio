@@ -23,7 +23,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-blue-900 text-white py-4 px-6 lg:flex lg:justify-between items-center">
+    <header className="bg-blue-900 text-white py-4 px-6 lg:flex lg:justify-start items-center">
       <Logo />
       <Nav />
       <Social social={social} />
@@ -31,6 +31,7 @@ export default function Header() {
         menuTrigger={menuTrigger}
         menuOpen={menuOpen}
         closeMenuTrigger={closeMenuTrigger}
+        className="hidden lg:block"
       />
     </header>
   );
