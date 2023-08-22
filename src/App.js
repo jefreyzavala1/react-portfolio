@@ -1,21 +1,19 @@
-import "./App.css";
 import Header from "./components/Header/Header";
-import Intro from "./components/Intro";
-import Projects from "./components/Projects";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import ContactMe from "./components/ContactMe";
-function App() {
+
+import "./App.css";
+import { useContext } from "react";
+import { ThemeContext } from "./contexts/theme";
+import About from "./components/About/About";
+const App = () => {
+  const contextValue = useContext(ThemeContext);
   return (
-    <div className="bg-gray-100 min-h-screen app">
+    <div id="top" className={`${contextValue.themeName} app`}>
       <Header />
-      {/* <Intro />
-        <Projects />
-        <AboutMe />
-        <Skills />
-        <ContactMe /> */}
+      <main>
+        <About />
+      </main>
     </div>
   );
-}
+};
 
 export default App;

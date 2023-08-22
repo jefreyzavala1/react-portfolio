@@ -1,38 +1,24 @@
-import { useState } from "react";
-import { FaLinkedinIn, FaGithub, FaEnvelope, FaFilePdf } from "react-icons/fa";
-import Logo from "./Logo";
-import Nav from "./Nav";
-import Social from "./Social";
-import HamburgerMenu from "./HamburgerMenu";
-const social = [
-  { social: <FaLinkedinIn />, link: "https://wwww.linkedin.com" },
-  { social: <FaGithub />, link: "https://github.com" },
-  { social: <FaEnvelope />, link: "mailto:jefreyzavala@gmail.com" },
-  { social: <FaFilePdf />, link: "https://wwww.linkedin.com" },
-];
-export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
+import { header } from "../../portfolio";
+import "./Header.css";
+import Navbar from "../Navbar/Navbar";
 
-  const menuTrigger = () => {
-    setMenuOpen(!menuOpen);
-    console.log("Yu want options when click");
-  };
-
-  const closeMenuTrigger = () => {
-    setMenuOpen(false);
-  };
+const Header = () => {
+  const { homepage, title } = header;
 
   return (
-    <header className="bg-blue-900 text-white py-4 px-6 lg:flex lg:justify-start items-center">
-      <Logo />
-      <Nav />
-      <Social social={social} />
-      <HamburgerMenu
-        menuTrigger={menuTrigger}
-        menuOpen={menuOpen}
-        closeMenuTrigger={closeMenuTrigger}
-        className="hidden lg:block"
-      />
+    <header className="header center">
+      <h3>
+        {homepage ? (
+          <a href={homepage} className="link">
+            {title}
+          </a>
+        ) : (
+          title
+        )}
+      </h3>
+      <Navbar/>
     </header>
   );
-}
+};
+
+export default Header;

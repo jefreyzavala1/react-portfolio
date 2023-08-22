@@ -1,0 +1,60 @@
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { about } from "../../portfolio";
+import "./About.css";
+
+const About = () => {
+  const { name, role, photo, description, resume, social } = about;
+  console.log(photo);
+  return (
+    <div className="about center">
+      {name && (
+        <h1 className="text-primary text-right">
+          Hello, my name is <span className="about__name">{name}.</span>
+        </h1>
+      )}
+
+      {role && <h2 className="about__role">A {role}.</h2>}
+      <div className="flex-row">
+        <p className="about__desc">{description && description}</p>
+        <img src="https://i.imgur.com/NhrPmSp.jpg" alt="headshot" />
+      </div>
+
+      <div className="about__contact center">
+        {resume && (
+          <a href={resume}>
+            <span type="button" className="btn btn--outline">
+              Resume
+            </span>
+          </a>
+        )}
+
+        {social && (
+          <>
+            {social.github && (
+              <a
+                href={social.github}
+                aria-label="github"
+                className="link link--icon"
+              >
+                <GitHubIcon />
+              </a>
+            )}
+
+            {social.linkedin && (
+              <a
+                href={social.linkedin}
+                aria-label="linkedin"
+                className="link link--icon"
+              >
+                <LinkedInIcon />
+              </a>
+            )}
+          </>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default About;
