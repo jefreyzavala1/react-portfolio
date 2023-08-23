@@ -10,14 +10,18 @@ const About = () => {
     <div className="about center">
       {name && (
         <h1 className="text-primary text-right">
-          Hello, my name is <span className="about__name">{name}.</span>
+          Hello, my name is <span className="about__name">{name}</span>
         </h1>
       )}
 
       {role && <h2 className="about__role">A {role}.</h2>}
       <div className="flex-row">
         <p className="about__desc">{description && description}</p>
-        <img src="https://i.imgur.com/NhrPmSp.jpg" alt="headshot" />
+        <img
+          className="image"
+          src="https://i.imgur.com/NhrPmSp.jpg"
+          alt="headshot"
+        />
       </div>
 
       <div className="about__contact center">

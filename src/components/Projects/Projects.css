@@ -1,0 +1,23 @@
+.projects__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-gap: 2em;
+}
+
+@media (max-width: 600px) {
+  .project {
+    width: 90vmin;
+    font-size: 2rem;
+  }
+  .project h3 {
+    font-size: 2.5rem;
+  }
+  .project__stack li {
+    font-size: 1.5rem;
+  }
+  .project a svg {
+    font-size: 2.5rem;
+  }
+}

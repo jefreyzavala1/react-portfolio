@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 * {
   padding: 0;
   margin: 0;
@@ -58,5 +59,44 @@ button {
 @media (max-width: 900px) {
   h1 {
     font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .text-primary {
+    text-align: center;
+  }
+  .about__role {
+    margin: 0 auto;
+    margin-bottom: 30vmin;
+  }
+
+  .about__contact {
+    margin: 0 auto;
+  }
+
+  .flex-row {
+    position: relative;
+  }
+  .image {
+    position: absolute;
+    top: -185px;
+    width: 40vmin;
+    height: 40vmin;
+  }
+  .about__desc {
+    text-align: center;
+    width: 90vmin;
+    margin-left: 5%;
+  }
+  .contact {
+    all: initial;
+    display: flex;
+    align-items: center;
+    margin-left: -80px;
+  }
+  .contact__content {
+    position: relative;
+    left: -60px;
   }
 }

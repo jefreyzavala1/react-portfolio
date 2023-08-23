@@ -47,4 +47,17 @@ img {
     align-items: flex-start;
     margin-top: 2em;
   }
+  .about__desc {
+    font-size: 1.6rem;
+  }
+
+  .about__contact {
+  }
+  .about__contact span {
+    font-size: 2rem;
+  }
+
+  .about__contact svg {
+    font-size: 3rem;
+  }
 }
