@@ -11,13 +11,16 @@
     width: 90vmin;
     font-size: 2rem;
   }
+  .section__title {
+    font-size: inherit;
+  }
   .project h3 {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
   }
   .project__stack li {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .project a svg {
-    font-size: 2.5rem;
+    font-size: 1.3rem;
   }
 }

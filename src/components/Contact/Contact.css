@@ -59,10 +59,16 @@
 }
 
 @media (max-width: 600px) {
-  .contact__content {
-    font-size: 1.5rem;
+  .section__title2 {
+    font-size: inherit;
   }
   .contact__content button {
-    font-size: 1.7rem;
+    font-size: inherit;
+  }
+  .contact__content {
+    font-family: "poppins";
+  }
+  .contact__form label {
+    color: #444444;
   }
 }

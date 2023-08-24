@@ -46,3 +46,11 @@ h3 {
   height: 25vh;
   margin-left: 5%;
 }
+
+@media (max-width: 600px) {
+  .project__description {
+    font-size: 1rem;
+  }
+  .project__stack-item {
+  }
+}

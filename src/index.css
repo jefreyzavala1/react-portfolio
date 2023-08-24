@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Playfair+Display&family=Poiret+One&family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -14,6 +15,7 @@
   font-size: inherit;
   box-shadow: none;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -58,7 +60,7 @@ button {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 }
 
@@ -80,9 +82,9 @@ button {
   }
   .image {
     position: absolute;
-    top: -185px;
-    width: 40vmin;
-    height: 40vmin;
+    top: -140px;
+    width: 30vmin;
+    height: 30vmin;
   }
   .about__desc {
     text-align: center;
@@ -93,10 +95,11 @@ button {
     all: initial;
     display: flex;
     align-items: center;
-    margin-left: -80px;
+    margin-left: -15px;
   }
   .contact__content {
     position: relative;
     left: -60px;
+    top: 50px;
   }
 }

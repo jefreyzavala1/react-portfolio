@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Playfair+Display&family=Poiret+One&family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap");
+
 .app {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
