@@ -9,7 +9,7 @@ const about = {
   photo: "./images/headshot.jpg",
 
   description:
-    "I am a software engineer with a passion for creating innovative and useful projects!.Committed to building strong relationships with users, stakeholders, and teammates.Dedicated to creating impactful software solutions that seamlessly integrate into people’s lives, making tasks easier and driving positive change. ",
+    "I am a software engineer and a continual learner with a passion for creating innovative and useful projects!.Committed to building strong relationships with users, stakeholders, and teammates.Dedicated to creating impactful software solutions that seamlessly integrate into people’s lives, making tasks easier and driving positive change. ",
   resume:
     "https://docs.google.com/document/d/1GEhXsvHVDU8DQDqckNmegx5rBgI6wy5f_qI84Kw3phw/edit?usp=sharing",
   social: {
