@@ -102,4 +102,10 @@ button {
     left: -60px;
     top: 20px;
   }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .about h2 {
+    font-size: 1.5rem;
+  }
 }
