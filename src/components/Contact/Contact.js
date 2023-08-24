@@ -13,8 +13,8 @@ const Contact = () => {
       <h2 className="section__title2">Contact</h2>
       <div className="contact__content">
         <form className="contact__form" onSubmit={handleSubmit}>
-          <label htmlFor="email">Email Address</label>
-          <input id="email" type="email" name="email" />
+          {/* <label htmlFor="email">Email Address</label> */}
+          <input id="email" type="email" name="email" placeholder="email" />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <textarea
             id="message"

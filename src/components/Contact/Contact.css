@@ -61,14 +61,29 @@
 @media (max-width: 600px) {
   .section__title2 {
     font-size: inherit;
+    margin-top: -5%;
   }
   .contact__content button {
     font-size: inherit;
+    padding: 5px;
   }
   .contact__content {
     font-family: "poppins";
   }
   .contact__form label {
     color: #444444;
+  }
+  .contact__content input {
+    height: 5vh;
+  }
+  .contact__content textarea {
+    height: 5vh;
+  }
+  .contact__content {
+    /* border: solid red 1px; */
+    margin-top: -8%;
+  }
+  .contact__content button {
+    margin-top: -3%;
   }
 }

@@ -90,7 +90,7 @@ img {
 
 @media (max-width: 600px) {
   .text-right {
-    animation: none;
+    /* animation: none; */
     width: 100%;
   }
   .about__desc {
