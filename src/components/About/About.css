@@ -69,6 +69,10 @@ img {
     blink-caret 0.75s step-end infinite;
 }
 
+.about__role {
+  overflow: hidden;
+  white-space: nowrap;
+}
 @keyframes typing {
   from {
     width: 0;
