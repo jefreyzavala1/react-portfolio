@@ -60,7 +60,7 @@
 
 @media (max-width: 600px) {
   .section__title2 {
-    font-size: inherit;
+    font-size: 1.3rem;
     margin-top: -5%;
   }
   .contact__content button {

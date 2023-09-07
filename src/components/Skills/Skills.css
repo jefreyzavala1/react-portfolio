@@ -10,3 +10,9 @@
 .skills__list-item {
   margin: 0.5em;
 }
+
+@media (max-width: 600px) {
+  .section__title {
+    font-size: 1.3rem;
+  }
+}

@@ -5,11 +5,11 @@ const header = {
 
 const about = {
   name: "Jefrey Zavala",
-  role: "Software Engineer",
+  role: "Full Stack Software Engineer",
   photo: "./images/headshot.jpg",
 
   description:
-    "I am a software engineer and a continual learner with a passion for creating innovative and useful projects!.Committed to building strong relationships with users, stakeholders, and teammates.Dedicated to creating impactful software solutions that seamlessly integrate into people’s lives, making tasks easier and driving positive change. ",
+    "I am a Full Stack Software Engineer and a continual learner who enjoys creating innovative technical solutions.Experienced with building strong relationships with clients,stakeholders,and teammates across multiple prjects.Driven to solve challenging problems that positively impact people's everyday lives. ",
   resume:
     "https://docs.google.com/document/d/1GEhXsvHVDU8DQDqckNmegx5rBgI6wy5f_qI84Kw3phw/edit?usp=sharing",
   social: {
@@ -37,8 +37,7 @@ const projects = [
   },
   {
     name: "PokeClash",
-    description:
-      "an interactive two-player battle game.Two players select a Pokemon and battle until one emerges victorious.",
+    description: "An interactive two-player pokemon battle game.",
 
     stack: ["Html", "Css", "JavaScript"],
     sourceCode: "https://github.com/jefreyzavala1/unit-1-project",
@@ -67,7 +66,7 @@ const projects = [
   {
     name: "Course Platform",
     description:
-      "created to help users effectively manage their courses by providing features for adding, removing, and updating course information",
+      "Course management tool for adding removing and updating course information",
     stack: ["JavaScript", "Boostrap", "Node.js", "Express", "MongoDB", "Ejs"],
     sourceCode: "https://github.com/jefreyzavala1/school-course-app",
     livePreview: "https://class-courses-app.herokuapp.com/",
@@ -76,8 +75,7 @@ const projects = [
 
   {
     name: "Puzzle Game",
-    description:
-      "Game app where the objective is to rearrange nine images into their correct positions while strategizing to achieve the goal in the fewest possible steps",
+    description: "Can you rearange the picture back to its orginal?",
     stack: ["HTML", "CSS", "JavaScript"],
     sourceCode: "https://github.com/jefreyzavala1/puzzlegame",
     livePreview: "https://jefreypuzzlegame.herokuapp.com/",
