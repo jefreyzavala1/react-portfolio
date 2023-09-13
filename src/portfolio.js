@@ -9,7 +9,7 @@ const about = {
   photo: "./images/headshot.jpg",
 
   description:
-    "I am a Full Stack Software Engineer and a continual learner who enjoys creating innovative technical solutions.Experienced with building strong relationships with clients,stakeholders,and teammates across multiple prjects.Driven to solve challenging problems that positively impact people's everyday lives. ",
+    "I am a Full Stack Software Engineer and a continual learner who enjoys creating innovative technical solutions.Experienced with building strong relationships with clients,stakeholders,and teammates across multiple projects.Driven to solve challenging problems that positively impact people's everyday lives. ",
   resume:
     "https://docs.google.com/document/d/1GEhXsvHVDU8DQDqckNmegx5rBgI6wy5f_qI84Kw3phw/edit?usp=sharing",
   social: {
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     name: "Cinematica",
-    description: "Movie Search app using the omdapi.",
+    description: "Movie Search app using the omdb api.",
     stack: ["React"],
     sourceCode: "https://github.com/jefreyzavala1/movie-search-api",
     livePreview: "https://cinematica-bfa5c42d8f9e.herokuapp.com/",
