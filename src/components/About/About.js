@@ -19,7 +19,8 @@ const About = () => {
         <p className="about__desc">{description && description}</p>
         <img
           className="image"
-          src="https://i.imgur.com/NhrPmSp.jpg"
+          // src="https://i.imgur.com/NhrPmSp.jpg"
+          src="https://i.imgur.com/NtPXTqz.png"
           alt="headshot"
         />
       </div>

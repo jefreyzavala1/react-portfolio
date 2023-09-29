@@ -3,7 +3,14 @@ import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import "./ProjectItem.css";
 
 const ProjectItem = ({ project }) => (
-  <div className="project">
+  <div
+    className="project"
+    style={{
+      backgroundImage: `url(${project.img})`,
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+    }}
+  >
     <h3>{project.name}</h3>
     {/* <img src={project.img} className="project-img" alt="hi" /> */}
     <p className="project__description">{project.description}</p>

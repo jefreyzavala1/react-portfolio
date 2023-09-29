@@ -6,7 +6,7 @@ const header = {
 const about = {
   name: "Jefrey Zavala",
   role: "Full Stack Software Engineer",
-  photo: "./images/headshot.jpg",
+  photo: "./images/headshot1.png",
 
   description:
     "I am a Full Stack Software Engineer and a continual learner who enjoys creating innovative technical solutions.Experienced with building strong relationships with clients,stakeholders,and teammates across multiple projects.Driven to solve challenging problems that positively impact people's everyday lives. ",
@@ -24,7 +24,8 @@ const projects = [
     description: "A full stack e-commerce website built in React.",
     stack: ["MongoDB", "Express", "React", "Node.js"],
     sourceCode: "https://github.com/jefreyzavala1/Walmart-MERN-APP",
-    livePreview: "https://fallmart.josemonagas.me/",
+    livePreview: "https://fallmart.jefreyzavala.me/",
+    // img: "https://i.imgur.com/OikVQxD.png",
   },
   {
     name: "Kickquest",
@@ -32,7 +33,7 @@ const projects = [
     stack: ["MongoDb", "Express", "React", "Node.js"],
     sourceCode: "https://github.com/jefreyzavala1/unit-3-project",
     livePreview: "https://kickquest.jefreyzavala.me/",
-    // img: "https://i.imgur.com/nFmsf6D.png",
+    // img: "https://i.imgur.com/3iPp8e6.png",
   },
   {
     name: "Cinematica",
@@ -40,7 +41,7 @@ const projects = [
     stack: ["React"],
     sourceCode: "https://github.com/jefreyzavala1/movie-search-api",
     livePreview: "https://cinematica-bfa5c42d8f9e.herokuapp.com/",
-    // img: "https://i.imgur.com/nFmsf6D.png",
+    // img: "https://i.imgur.com/p40XydT.png",
   },
   {
     name: "PokeClash",
@@ -49,7 +50,7 @@ const projects = [
     stack: ["Html", "Css", "JavaScript"],
     sourceCode: "https://github.com/jefreyzavala1/unit-1-project",
     livePreview: "https://jefreyzavala1.github.io/unit-1-project/",
-    // img: "https://i.imgur.com/HIM5RhT.jpg",
+    // img: "https://i.imgur.com/Txnoo0L.png",
   },
   {
     name: "Simply Blogging",
@@ -58,7 +59,7 @@ const projects = [
     stack: ["JavaScript", "Bootstrap", "Node.js", "Express", "MongoDB", "Ejs"],
     sourceCode: "https://github.com/jefreyzavala1/simply-blogging",
     livePreview: "https://simply-blogging.herokuapp.com/",
-    // img: "https://i.imgur.com/yLJCcry.jpg",
+    // img: "https://i.imgur.com/cQUR9v5.png",
   },
 
   {
@@ -68,7 +69,7 @@ const projects = [
     stack: ["JavaScript", "Bootstrap", "Node.js", "Express", "MongoDB", "Ejs"],
     sourceCode: "https://github.com/jefreyzavala1/appointment-mvc-auth",
     livePreview: "https://appointy-portal.herokuapp.com/",
-    // img: "https://i.imgur.com/xnF7NGU.jpg",
+    // img: "https://i.imgur.com/HVKQCxc.png",
   },
   {
     name: "Course Platform",
@@ -77,7 +78,7 @@ const projects = [
     stack: ["JavaScript", "Bootstrap", "Node.js", "Express", "MongoDB", "Ejs"],
     sourceCode: "https://github.com/jefreyzavala1/school-course-app",
     livePreview: "https://class-courses-app.herokuapp.com/",
-    // img: "https://i.imgur.com/nspjbHZ.jpg",
+    // img: "https://i.imgur.com/0MTm3SC.png",
   },
 
   {
@@ -95,7 +96,7 @@ const projects = [
     stack: ["Html", "Css", "Bootstrap", "Node.js", "Express", "JavaScript"],
     sourceCode: "https://github.com/jefreyzavala1/mailchimp-newsletter-api",
     livePreview: "https://safe-wildwood-38967.herokuapp.com/",
-    // img: "https://i.imgur.com/QU1nhuO.jpg",
+    // img: "https://i.imgur.com/c3Y2VOU.png",
   },
   {
     name: "Task Tracker",
@@ -112,7 +113,7 @@ const projects = [
     ],
     sourceCode: "https://github.com/jefreyzavala1/task-tracker",
     livePreview: "https://task-tracker-list-app.herokuapp.com/",
-    // img: "https://i.imgur.com/UJeoZvg.jpg",
+    // img: "https://i.imgur.com/PzVYHIu.png",
   },
 ];
 
