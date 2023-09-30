@@ -101,3 +101,9 @@ img {
     font-size: inherit;
   }
 }
+
+@media (max-width: 400px) {
+  .about__desc {
+    margin-top: 0.5%;
+  }
+}
