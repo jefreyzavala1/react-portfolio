@@ -9,7 +9,7 @@ const about = {
   photo: "./images/headshot1.png",
 
   description:
-    "I am a Full Stack Software Engineer and a continual learner who enjoys creating innovative technical solutions.Experienced with building strong relationships with clients,stakeholders,and teammates across multiple projects.Driven to solve challenging problems that positively impact people's everyday lives. ",
+    "I am a Full Stack Software Engineer and a continual learner who enjoys creating innovative technical solutions.Experienced with building strong relationships with clients,and teammates across multiple projects.Driven to solve challenging problems that positively impact people's everyday lives. ",
   resume:
     "https://docs.google.com/document/d/1GEhXsvHVDU8DQDqckNmegx5rBgI6wy5f_qI84Kw3phw/edit?usp=sharing",
   social: {
@@ -25,7 +25,7 @@ const projects = [
     stack: ["MongoDB", "Express", "React", "Node.js"],
     sourceCode: "https://github.com/jefreyzavala1/Walmart-MERN-APP",
     livePreview: "https://fallmart.jefreyzavala.me/",
-    // img: "https://i.imgur.com/OikVQxD.png",
+    img: "https://i.imgur.com/OikVQxD.png",
   },
   {
     name: "Kickquest",
@@ -33,33 +33,33 @@ const projects = [
     stack: ["MongoDb", "Express", "React", "Node.js"],
     sourceCode: "https://github.com/jefreyzavala1/unit-3-project",
     livePreview: "https://kickquest.jefreyzavala.me/",
-    // img: "https://i.imgur.com/3iPp8e6.png",
+    img: "https://i.imgur.com/3iPp8e6.png",
   },
   {
     name: "Cinematica",
-    description: "Movie Search app using the omdb api.",
+    description: "A Movie Search app using the omdb api built in react.",
     stack: ["React"],
     sourceCode: "https://github.com/jefreyzavala1/movie-search-api",
     livePreview: "https://cinematica-bfa5c42d8f9e.herokuapp.com/",
-    // img: "https://i.imgur.com/p40XydT.png",
+    img: "https://i.imgur.com/p40XydT.png",
   },
   {
     name: "PokeClash",
-    description: "An interactive two-player pokemon battle game.",
+    description:
+      "An interactive two-player pokemon battle game.Fight till the end!",
 
     stack: ["Html", "Css", "JavaScript"],
     sourceCode: "https://github.com/jefreyzavala1/unit-1-project",
     livePreview: "https://jefreyzavala1.github.io/unit-1-project/",
-    // img: "https://i.imgur.com/Txnoo0L.png",
+    img: "https://i.imgur.com/Txnoo0L.png",
   },
   {
-    name: "Simply Blogging",
-    description:
-      "Full stack app that empowers users to create blogs and connect with others.",
+    name: "Blogging",
+    description: "A full stack user blog app ",
     stack: ["JavaScript", "Bootstrap", "Node.js", "Express", "MongoDB", "Ejs"],
     sourceCode: "https://github.com/jefreyzavala1/simply-blogging",
     livePreview: "https://simply-blogging.herokuapp.com/",
-    // img: "https://i.imgur.com/cQUR9v5.png",
+    img: "https://i.imgur.com/cQUR9v5.png",
   },
 
   {
@@ -69,7 +69,7 @@ const projects = [
     stack: ["JavaScript", "Bootstrap", "Node.js", "Express", "MongoDB", "Ejs"],
     sourceCode: "https://github.com/jefreyzavala1/appointment-mvc-auth",
     livePreview: "https://appointy-portal.herokuapp.com/",
-    // img: "https://i.imgur.com/HVKQCxc.png",
+    img: "https://i.imgur.com/HVKQCxc.png",
   },
   {
     name: "Course Platform",
@@ -78,7 +78,7 @@ const projects = [
     stack: ["JavaScript", "Bootstrap", "Node.js", "Express", "MongoDB", "Ejs"],
     sourceCode: "https://github.com/jefreyzavala1/school-course-app",
     livePreview: "https://class-courses-app.herokuapp.com/",
-    // img: "https://i.imgur.com/0MTm3SC.png",
+    img: "https://i.imgur.com/0MTm3SC.png",
   },
 
   {
@@ -87,7 +87,7 @@ const projects = [
     stack: ["Html", "Css", "JavaScript"],
     sourceCode: "https://github.com/jefreyzavala1/puzzlegame",
     livePreview: "https://jefreypuzzlegame.herokuapp.com/",
-    // img: "https://i.imgur.com/gBfa4PL.jpg",
+    img: "https://i.imgur.com/gBfa4PL.jpg",
   },
   {
     name: "NewsLetter App",
@@ -96,7 +96,7 @@ const projects = [
     stack: ["Html", "Css", "Bootstrap", "Node.js", "Express", "JavaScript"],
     sourceCode: "https://github.com/jefreyzavala1/mailchimp-newsletter-api",
     livePreview: "https://safe-wildwood-38967.herokuapp.com/",
-    // img: "https://i.imgur.com/c3Y2VOU.png",
+    img: "https://i.imgur.com/c3Y2VOU.png",
   },
   {
     name: "Task Tracker",
@@ -113,7 +113,7 @@ const projects = [
     ],
     sourceCode: "https://github.com/jefreyzavala1/task-tracker",
     livePreview: "https://task-tracker-list-app.herokuapp.com/",
-    // img: "https://i.imgur.com/PzVYHIu.png",
+    img: "https://i.imgur.com/PzVYHIu.png",
   },
 ];
 

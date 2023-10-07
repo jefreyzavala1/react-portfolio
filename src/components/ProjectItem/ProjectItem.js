@@ -7,11 +7,9 @@ const ProjectItem = ({ project }) => (
     className="project"
     style={{
       backgroundImage: `url(${project.img})`,
-      backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
     }}
   >
-    <h3>{project.name}</h3>
+    {/* <h3 className="project_name">{project.name}</h3> */}
     {/* <img src={project.img} className="project-img" alt="hi" /> */}
     <p className="project__description">{project.description}</p>
     {project.stack && (

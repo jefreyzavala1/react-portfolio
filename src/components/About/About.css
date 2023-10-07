@@ -40,6 +40,8 @@
 img {
   border-radius: 40%;
   width: 30%;
+  position: relative;
+  top: 20px;
 }
 
 @media (max-width: 600px) {
