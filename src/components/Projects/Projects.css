@@ -4,73 +4,65 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+  border: solid 1px blue;
 }
-.project__description{
+.project__description {
   background-color: transparent;
-  color:var(--clr-primary);
-
+  color: var(--clr-primary);
 }
-.project__stack{
+.project__stack {
   background-color: transparent;
   color: var(--clr-primary);
 }
 
-.project:first-of-type{
+.project:first-of-type {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.project:nth-of-type(2){
+.project:nth-of-type(2) {
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.project:nth-of-type(3){
+.project:nth-of-type(3) {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
-.project:nth-of-type(4){
+.project:nth-of-type(4) {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
-.project:nth-of-type(5){
+.project:nth-of-type(5) {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
-.project:nth-of-type(6){
+.project:nth-of-type(6) {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
-.project:nth-of-type(7){
+.project:nth-of-type(7) {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
-.project:nth-of-type(8){
+.project:nth-of-type(8) {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
-.project:nth-of-type(9){
+.project:nth-of-type(9) {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
-.project:nth-of-type(10){
+.project:nth-of-type(10) {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
 @media (max-width: 600px) {
   .project {
@@ -104,7 +96,6 @@
     max-width: 900px;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     grid-gap: 1.5em;
-
   }
 }
 
@@ -117,79 +108,69 @@
   }
 }
 @media (max-width: 600px) {
-  .project:first-of-type{
+  .project:first-of-type {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  .project:nth-of-type(2){
+  .project:nth-of-type(2) {
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  .project:nth-of-type(3){
+  .project:nth-of-type(3) {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
-  
   }
-  .project:nth-of-type(4){
+  .project:nth-of-type(4) {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
-  
   }
-  .project:nth-of-type(5){
+  .project:nth-of-type(5) {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
-  
   }
-  .project:nth-of-type(6){
+  .project:nth-of-type(6) {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
-  
   }
-  .project:nth-of-type(7){
+  .project:nth-of-type(7) {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
-  
   }
-  .project:nth-of-type(8){
+  .project:nth-of-type(8) {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
-  
   }
-  .project:nth-of-type(9){
+  .project:nth-of-type(9) {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
-  
   }
-  .project:nth-of-type(10){
+  .project:nth-of-type(10) {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
-  
   }
-  .project_name{
+  .project_name {
     background-color: transparent;
-    text-shadow: 1px 1px 1px rgba(255,0,0,0.5);
+    text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);
   }
-  .project__description{
+  .project__description {
     background-color: transparent;
-    color:var(--clr-primary);
-
+    color: var(--clr-primary);
   }
-  .project__stack{
+  .project__stack {
     background-color: transparent;
     color: var(--clr-primary);
   }
   .projects__grid {
     grid-template-columns: 1fr;
     grid-gap: 1.5rem;
-   
   }
 }

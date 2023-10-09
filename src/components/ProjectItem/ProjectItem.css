@@ -7,11 +7,11 @@
   /* background-repeat: no-repeat;
   background-size: contain; */
   position: relative;
+  border: solid red 1px;
 }
-.project_name{
+.project_name {
   color: var(--clr-primary);
 }
-
 
 .project__description {
   margin-top: 1em;
@@ -21,10 +21,11 @@
 .project:hover {
   transform: translateY(-7px);
   box-shadow: 0 2px 24px rgba(244, 79, 79, 0.1);
-  .project__description,.project__stack-item,.link--icon{
+  .project__description,
+  .project__stack-item,
+  .link--icon {
     visibility: visible;
   }
-  
 }
 
 .project__stack {
