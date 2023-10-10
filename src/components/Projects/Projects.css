@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
-  border: solid 1px blue;
 }
 .project__description {
   background-color: transparent;

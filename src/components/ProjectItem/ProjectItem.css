@@ -7,7 +7,6 @@
   /* background-repeat: no-repeat;
   background-size: contain; */
   position: relative;
-  border: solid red 1px;
 }
 .project_name {
   color: var(--clr-primary);
@@ -26,6 +25,7 @@
   .link--icon {
     visibility: visible;
   }
+  background-color: transparent;
 }
 
 .project__stack {
