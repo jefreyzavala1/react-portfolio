@@ -106,23 +106,18 @@
     max-width: 700px;
     grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
     grid-gap: 1em;
-    border: solid 2px red;
   }
 }
 @media (max-width: 600px) {
   .project:first-of-type {
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100% 110%;
   }
   .project:nth-of-type(2) {
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100% 120%;
   }
 
   .project:nth-of-type(3) {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 250%;
   }
   .project:nth-of-type(4) {
     background-size: contain;
