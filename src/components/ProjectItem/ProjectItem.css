@@ -26,6 +26,7 @@
     visibility: visible;
   }
   background-color: transparent;
+  cursor: pointer;
 }
 
 .project__stack {

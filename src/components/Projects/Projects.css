@@ -15,23 +15,26 @@
 }
 
 .project:first-of-type {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .project:nth-of-type(2) {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .project:nth-of-type(3) {
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: 100% 220%;
 }
 .project:nth-of-type(4) {
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 150%;
 }
 .project:nth-of-type(5) {
   background-size: contain;
