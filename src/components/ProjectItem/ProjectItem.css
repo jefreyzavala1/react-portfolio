@@ -13,6 +13,9 @@
 .project__description {
   text-align: center;
 }
+.project_name {
+  color: var(--clr-primary);
+}
 .project__description {
   font-size: 1.2rem;
 }
