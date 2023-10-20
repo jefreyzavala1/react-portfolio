@@ -124,6 +124,7 @@ const skills = [
   "<i class='fab fa-react fa-2xl' style='color: #61DAFB;'></i>",
   "<i class='fas fa-database fa-2xl' style='color: #47A248;'></i>",
   "<i class='fab fa-java fa-2xl' style='color: #007396;'></i>",
+  "<i class='fab fa-python fa-2x' style='color: #306998;''></i>",
 ];
 
 const contact = {

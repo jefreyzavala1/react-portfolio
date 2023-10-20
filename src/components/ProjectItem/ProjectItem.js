@@ -44,7 +44,7 @@ const ProjectItem = ({ project }) => {
           </ul>
         )}
 
-        {project.sourceCode && (
+        <div className="icons">
           <a
             href={project.sourceCode}
             aria-label="source code"
@@ -52,9 +52,7 @@ const ProjectItem = ({ project }) => {
           >
             <GitHubIcon />
           </a>
-        )}
 
-        {project.livePreview && (
           <a
             href={project.livePreview}
             aria-label="live preview"
@@ -62,7 +60,7 @@ const ProjectItem = ({ project }) => {
           >
             <RocketLaunchIcon />
           </a>
-        )}
+        </div>
       </div>
     </div>
   );
