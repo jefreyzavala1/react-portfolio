@@ -22,7 +22,6 @@
 .project__stack {
   display: flex;
   justify-content: space-around;
-  text-decoration: underline var(--clr-primary);
   margin-top: 5%;
   font-weight: bold;
 }
