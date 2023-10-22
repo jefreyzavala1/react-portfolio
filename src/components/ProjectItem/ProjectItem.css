@@ -20,10 +20,14 @@
   font-size: 1.2rem;
 }
 .project__stack {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin-top: 5%;
   font-weight: bold;
+  border: solid blue 2px;
 }
 
 .icons {
@@ -39,9 +43,9 @@ a:first-of-type {
     height: 35vh;
     background-size: 100%;
   }
-  .project__stack {
+  /* .project__stack {
     flex-direction: column;
     align-items: center;
     margin-top: 2%;
-  }
+  } */
 }
