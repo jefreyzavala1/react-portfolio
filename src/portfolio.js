@@ -102,15 +102,7 @@ const projects = [
     name: "Task Tracker",
     description:
       "A full stack web application created to help users in efficiently managing their daily tasks and to-do.",
-    stack: [
-      "Html",
-      "Css",
-      "Bootstrap",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "JavaScript",
-    ],
+    stack: ["Html", "Bootstrap", "Node.js", "Express", "MongoDB", "JavaScript"],
     sourceCode: "https://github.com/jefreyzavala1/task-tracker",
     livePreview: "https://task-tracker-list-app.herokuapp.com/",
     img: "https://i.imgur.com/PzVYHIu.png",
